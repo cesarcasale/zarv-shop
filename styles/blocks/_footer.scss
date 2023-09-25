@@ -1,0 +1,66 @@
+footer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.contacto-datos {
+    display: flex;
+}
+
+.datos{
+    margin: 10px;
+    
+}
+
+.politicas {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.politicas-lista {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+.bottom-list {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h5 {
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+}

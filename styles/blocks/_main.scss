@@ -1,0 +1,64 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.articulos  {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+
+}
+
+.itemcard {
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itemcard-img {
+    width: 300px;
+    height: 400px;
+
+}
+
+h6 {
+    font-size: 20px;
+}
+
+.subscripcion {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscripcion-text {
+margin-bottom: 10px;
+font-size: 30px;
+}
+
+.subscripcion-email {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 40%;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+.subscripcion-email:focus {
+    outline-color: transparent;
+}
